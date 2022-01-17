@@ -1,0 +1,19 @@
+html{
+  background-color: #F5F7F6;
+}
+
+.container{
+  margin: 0 20px;
+  margin-top: 75px;
+}
+
+.Header{
+  margin-bottom: 150px;
+}
+
+.companiesList{
+  margin-top: 75px;
+  display: flex;
+  flex-wrap: wrap;
+}
+

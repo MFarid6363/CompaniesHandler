@@ -1,0 +1,47 @@
+.myCompanies{
+  display: flex;
+  align-items: center;
+}
+
+.myCompanies .flower{
+    width: 88px;
+    height: 88px;
+    min-width: 88px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 16px 0px #00000040;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+  }
+  
+  .myCompanies .flower img{
+    width: 48px;
+  }
+
+  
+  .myCompanies .description {
+    margin-left: 24px;
+  }
+  
+  .myCompanies .description span {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 38px
+  }
+  
+  .myCompanies .description p{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  @media (max-width: 600px) {
+    .myCompanies .description p{
+      margin: 5px;
+    }
+}
